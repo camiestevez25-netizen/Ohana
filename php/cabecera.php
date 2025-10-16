@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href=" boostrap/bootstrap.min.css"rel="stylesheet" >
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <nav class="navbar bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="img/ohanalogo.jpeg" alt="Bootstrap" width="70" height="70">
-        </a>
-      </div>
-    </nav>
-
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/ohanalogo.jpeg" alt="Bootstrap" width="70" height="70">
+    </a>
+  </div>
+</nav>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="productos.php">Productos</a>
+          <a class="nav-link" href="Ohana/php/producto/pagprin.php">Productos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="clientes.php">Clientes</a>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Clientes</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,8 +43,14 @@
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <script src="bootstrap/bootstrap.bundle.min.js"></script> 
+
+
+
+
+
+<script src="boostrap/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
